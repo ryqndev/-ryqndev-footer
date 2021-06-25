@@ -1,1 +1,0 @@
-# ryqndev-footer
