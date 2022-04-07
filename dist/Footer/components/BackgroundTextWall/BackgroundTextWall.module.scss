@@ -1,0 +1,38 @@
+.container {
+    position: absolute;
+    top: 0;
+    left: -80px;
+    width: calc(100% + 200px);
+
+    &>p {
+        opacity: 0;
+        color: #888;
+        margin: 0;
+        user-select: none;
+        pointer-events: all;
+        display: inline;
+        font-size: 8em;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        line-height: 0.85em;
+        word-wrap: break-word;
+        transition: color 250ms;
+
+        animation: fade 2s alternate forwards infinite linear;
+
+        @for $i from 1 to 70 {
+            &:nth-child(#{$i}) { animation-delay: $i * 0.15s; }
+        }
+    }
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.1;
+    }
+}

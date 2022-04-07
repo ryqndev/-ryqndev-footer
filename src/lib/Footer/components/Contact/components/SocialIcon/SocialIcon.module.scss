@@ -1,0 +1,79 @@
+.container {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: block;
+
+    & svg {
+        pointer-events: none;
+        height: 100%;
+        width: 100%;
+
+        & path {
+            transition: fill 250ms;
+        }
+    }
+
+    &:hover {
+
+        & path,
+        g {
+            fill: #ff00ff;
+        }
+
+        animation: itemBounce 0.333s forwards;
+    }
+}
+
+.backdrop {
+    z-index: 2000;
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000088;
+    height: 100vh;
+    width: 100vw;
+
+    &>.popup {
+        background-color: #303030;
+        border-radius: 4px;
+        width: min-content;
+        padding: 30px 60px;
+        font-size: 0.4em;
+        display: grid;
+        place-self: center;
+        text-align: center;
+        font-weight: 400;
+        text-transform: lowercase;
+        color: white;
+
+        &>span {
+            text-transform: uppercase;
+            font-weight: bold;
+            color: grey;
+        }
+    }
+}
+
+@keyframes itemBounce {
+    0% {
+        transform: translateY(0px);
+        animation-timing-function: cubic-bezier(0, .7, .51, .99);
+    }
+
+    25% {
+        transform: translateY(-4px);
+        animation-timing-function: cubic-bezier(.55, .01, .51, .99);
+    }
+
+    65% {
+        transform: translateY(1px);
+        animation-timing-function: cubic-bezier(.55, .01, .51, .99);
+    }
+
+    100% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, .59, .51, .99);
+    }
+}

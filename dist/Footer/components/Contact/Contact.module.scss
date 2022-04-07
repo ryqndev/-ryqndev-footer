@@ -1,0 +1,66 @@
+.container {
+    position: fixed;
+    z-index: 100;
+    bottom: 20vh;
+    left: 5vw;
+    background: linear-gradient(225deg, #ff00ff, #00ffff);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    animation: blend 4s ease infinite alternate-reverse;
+    background-size: 400% 400%;
+
+    &>h2.contact {
+        text-transform: uppercase;
+        color: transparent;
+        text-shadow: none;
+        font-weight: bold;
+        font-size: 6em;
+        font-family: 'Poppins';
+        user-select: none;
+        line-height: 1.1em;
+        margin: 0;
+    }
+
+    &>.icons {
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 20px;
+        padding-left: 5px;
+        width: min-content;
+    }
+
+    @media screen and (max-width: 800px) {
+        left: 30px;
+        bottom: 40px;
+
+        &>h2.contact {
+            font-size: 3em;
+            line-height: 1.4em;
+        }
+        &>.icons {
+            column-gap: 10px;
+            padding-left: 0px;
+        }
+    }
+}
+
+
+@keyframes blend {
+    0% {
+        background-position: 100% 100%;
+    }
+
+    33% {
+        background-position: 0% 100%;
+    }
+
+    66% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 0%;
+    }
+}
