@@ -1,4 +1,4 @@
-import * as cn from './Contact.module.scss';
+import cn from './Contact.module.scss';
 import { SocialIcon } from './components';
 import { ReactComponent as WebsiteIcon } from './assets/icons/website.svg';
 

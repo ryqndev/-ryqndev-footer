@@ -1,5 +1,5 @@
 import { useState, memo } from 'react';
-import * as cn from './SocialIcon.module.scss';
+import cn from './SocialIcon.module.scss';
 
 const SocialIcon = ({ name, text, href, Icon }) =>
 	name === 'discord' ? (

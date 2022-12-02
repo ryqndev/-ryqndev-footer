@@ -1,5 +1,5 @@
 import Footer from './lib';
-import * as cn from './App.module.scss';
+import cn from './App.module.scss';
 // import ImagePane from '@ryqndev/image-pane';
 
 function App() {
