@@ -1,12 +1,12 @@
 import Footer from './lib';
-import cn from './App.module.scss';
-import ImagePane from '@ryqndev/image-pane';
+import * as cn from './App.module.scss';
+// import ImagePane from '@ryqndev/image-pane';
 
 function App() {
 	return (
 		<div className={cn.container}>
 			<div className={cn.content}>
-				<ImagePane
+				{/* <ImagePane
 					className={cn.image}
 					src='https://boba.watch/bobawatch.png'
 					alt='boba watch various screens'
@@ -16,7 +16,7 @@ function App() {
 						description:
 							'This is an overview of the splash art that was created for the Boba Watch. The splash art is a combination of the the various screens that can be accessed.',
 					}}
-				/>
+				/> */}
 			</div>
 			<Footer />
 		</div>

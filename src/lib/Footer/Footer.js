@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { Contact } from './components';
 import BackgroundTextWall from './components/BackgroundTextWall/BackgroundTextWall';
-import cn from './Footer.module.scss';
+import * as cn from './Footer.module.scss';
 
 const Footer = () => {
 	return (

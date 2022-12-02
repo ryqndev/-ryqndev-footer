@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import cn from './BackgroundTextWall.module.scss';
+import * as cn from './BackgroundTextWall.module.scss';
 
 const PROJECT_NAMES =
 	'bobawatch pickbanpro learnryqndev datavis caeno spotimaps morphvism mymo tftactics rdsl digitalexplorers fearfilter rememory ';
