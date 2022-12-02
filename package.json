@@ -1,7 +1,7 @@
 {
 	"name": "@ryqndev/footer",
 	"author": "Ryan Yang <ryanqyang@gmail.com> (https://ryqn.dev)",
-	"version": "3.2.2",
+	"version": "3.2.3",
 	"private": false,
 	"main": "dist/index.js",
 	"module": "dist/index.js",

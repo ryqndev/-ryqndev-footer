@@ -1,4 +1,4 @@
-import Footer from './lib';
+import { Footer } from './lib';
 import cn from './App.module.scss';
 // import ImagePane from '@ryqndev/image-pane';
 

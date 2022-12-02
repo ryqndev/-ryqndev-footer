@@ -6,8 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "Footer", {
   enumerable: true,
   get: function get() {
-    return _Footer.default;
+    return _Footer.Footer;
   }
 });
-var _Footer = _interopRequireDefault(require("./Footer"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _Footer = require("./Footer");
