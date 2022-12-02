@@ -4,17 +4,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-
 require("core-js/modules/web.dom-collections.iterator.js");
-
 var _react = require("react");
-
 var _SocialIconModule = _interopRequireDefault(require("./SocialIcon.module.scss"));
-
 var _jsxRuntime = require("react/jsx-runtime");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 const SocialIcon = _ref => {
   let {
     name,
@@ -34,12 +28,11 @@ const SocialIcon = _ref => {
     children: /*#__PURE__*/(0, _jsxRuntime.jsx)(Icon, {})
   });
 };
+
 /**
  * Since Discord doesn't have profile links, we make a popup that displays
  * unique username
  */
-
-
 const DiscordIcon = _ref2 => {
   let {
     Icon,
@@ -67,7 +60,5 @@ const DiscordIcon = _ref2 => {
     })]
   });
 };
-
 var _default = /*#__PURE__*/(0, _react.memo)(SocialIcon);
-
 exports.default = _default;

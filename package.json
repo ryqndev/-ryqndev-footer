@@ -1,15 +1,15 @@
 {
 	"name": "@ryqndev/footer",
 	"author": "Ryan Yang <ryanqyang@gmail.com> (https://ryqn.dev)",
-	"version": "3.1.1",
+	"version": "3.1.2",
 	"private": false,
 	"main": "dist/index.js",
 	"module": "dist/index.js",
 	"dependencies": {
-		"clsx": "^1.1.1",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"sass": "^1.49.9"
+		"clsx": "^1.2.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"sass": "^1.56.1"
 	},
 	"license": "MIT",
 	"homepage": "https://github.com/ryqndev/rdsl-footer",
@@ -38,12 +38,12 @@
 		]
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.17.6",
-		"@babel/core": "^7.17.5",
+		"@babel/cli": "^7.19.3",
+		"@babel/core": "^7.20.5",
 		"@babel/polyfill": "^7.12.1",
-		"@babel/preset-env": "^7.16.11",
+		"@babel/preset-env": "^7.20.2",
 		"@ryqndev/image-pane": "^1.2.2",
-		"react-scripts": "^5.0.0"
+		"react-scripts": "^5.0.1"
 	},
 	"repository": "git://github.com/ryqndev/rdsl-footer.git"
 }

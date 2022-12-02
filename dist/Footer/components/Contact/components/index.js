@@ -9,7 +9,5 @@ Object.defineProperty(exports, "SocialIcon", {
     return _SocialIcon.default;
   }
 });
-
 var _SocialIcon = _interopRequireDefault(require("./SocialIcon"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

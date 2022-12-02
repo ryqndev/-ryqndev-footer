@@ -9,7 +9,5 @@ Object.defineProperty(exports, "Contact", {
     return _Contact.default;
   }
 });
-
 var _Contact = _interopRequireDefault(require("./Contact"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
