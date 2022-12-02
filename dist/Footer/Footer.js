@@ -3,8 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
-var _react = require("react");
+exports.Footer = void 0;
 var _components = require("./components");
 var _BackgroundTextWall = _interopRequireDefault(require("./components/BackgroundTextWall/BackgroundTextWall"));
 var _FooterModule = _interopRequireDefault(require("./Footer.module.scss"));
@@ -19,5 +18,4 @@ const Footer = () => {
     })
   });
 };
-var _default = /*#__PURE__*/(0, _react.memo)(Footer);
-exports.default = _default;
+exports.Footer = Footer;
